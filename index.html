@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Прогноз погоды</title>
+    <title>Weather Forecast</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
-        <h1>П О Г О Д А</h1>
+        <h1>Weather Forecast</h1>
         <div class="box">
-            <form id="form"><input type="text" id="cityInput" placeholder="Какой  Город?"></form>
-            <button id="btn">поиск</button>
+            <form id="form">
+                <input type="text" id="cityInput" placeholder="Enter city">
+            </form>
+            <button id="btn">Search</button>
         </div>
         <div class="block">
-            <div class="boxs b">
-                <img id="icon" class="icon" src="">
+            <div class="boxs weather-info">
+                <img id="icon" class="icon" src="" alt="Weather Icon">
                 <h2 id="temp"></h2>
+                <h3 id="description"></h3>
             </div>
-            <div class="boxs a">
+            <div class="boxs">
                 <h2 id="city"></h2>
-                <h2 id="speed"></h2></div>
             </div>
         </div>
-      </div>
+    </div>
 
     <script src="./main.js"></script>
 </body>
 </html>
-
-
