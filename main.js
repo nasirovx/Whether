@@ -7,7 +7,7 @@ const descriptionElement = document.getElementById("description");
 const btn = document.getElementById("btn");
 const cityInput = document.getElementById("cityInput");
 
-btn.addEventListener("click", () => {
+btn.addEventListener("click", () => { 
     const city = cityInput.value;
     getWeather(city);
     cityInput.value = '';
